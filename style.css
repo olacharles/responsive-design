@@ -74,8 +74,14 @@ body {
     margin: 100px;
 }
 
+.content p {
+    font-size: 30px;
+    margin: 100px;
+}
+
 button {
     width: 180px;
+    height: 80px;
     text-align: center;
     padding: 15px 0;
     margin: 20px 10px;
@@ -141,33 +147,37 @@ footer p {
     margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-    
-    h1 {
-        font-size: 24px;
-    }
-    p {
-        font-size: 16px;
-    }
-    
-    .image-container img {
-        width: 300px;
-        height: 300px;
-    }
-}
-
 
 @media screen and (max-width: 480px) {
-  
-    h1 {
-        font-size: 20px;
+   
+
+    
+    .logo {
+        width: 50px; 
     }
-    p {
-        font-size: 14px;
+
+    .navbar ul li {
+        font-size: 5px; 
+    }
+
+    
+    .content h1 {
+        font-size: 70px; 
+        margin: 20px; 
     }
     
-    .image-container img {
-        width: 200px;
-        height: 200px;
+    .content p {
+        font-size: 20px; 
+        margin: 20px; 
     }
+    button {
+        width: 180px; 
+        height: 80px; 
+    }
+
+    .image-container img {
+        width: 150px; 
+        height: 150px; 
+    }
+
 }
